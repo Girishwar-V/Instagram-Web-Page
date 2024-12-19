@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+  <link rel="stylesheet" href="./style_1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="./Instgram.png">
+</head>
+<body>
+  <div class="insta">
+    <header>
+        <div class="logo">
+          <img src="./Insta.png" alt="**">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a>Home</li>
+                <li><a href="#"><i class="fas fa-search"></i></a>Search</li>
+                <li><a href="#"><i class="far fa-compass"></i></a>Explore</li>
+                <li><a href="#"><i class="fa-solid fa-clapperboard"></i></a>Reels</li>
+                <li><a href="#"><i class="fab fa-facebook-messenger"></i></a>Messages</li>
+                <li><a href="#"><i class="far fa-heart"></i></a>Notifications</li>
+                <li><a href="#"><i class="far fa-plus-square"></i></a>Create</li>
+            </ul>
+        </nav>
+                
+        <nav1>
+            <ul>
+                <li><a href="#"><img src="./Iron man.jpg" alt="LT" height="30px" wifth="30px"></a>Profile</li>
+                <li><a href="#"><p class="ch"><i class="fa-brands fa-threads"></i></a>Threads</p></li>
+                <li><a href="#"><p class="ch1"><i class="fa-solid fa-bars"></i></a>More</p></li>
+            </ul>
+        </nav1>
+            
+    </header>
+
+    <section>
+        <div class="left-side">
+            <div class="story">
+                <div class="stories">
+                    <a href="#"><img src="./Iron man.jpg" width="60" height="60" alt="fff"></a>
+                    <p>Iron Man</p>
+                </div>
+                <div class="stories">
+                    <a href="#"><img src="./Captain America.jpg" width="60" height="60" alt="fff"></a>
+                    <p>Captain America</p>
+                </div>
+                <div class="stories">
+                    <a href="#"><img src="./Thor.jpg" width="60" height="60" alt="fff"></a>
+                    <p>Thor</p>
+                </div>
+            </div>
+
+            <div class="posts">
+              <div class="post-title">
+                <div class="post-left">
+                  <div class="image">
+                    <img src="./Iron man.jpg" alt="iron man" width="32" height="32">
+                  </div>
+                  <div class="details">
+                    <p class="name">Iron Man <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                    <p class="location">Heroes aren't born, They're built</p>
+                  </div>
+                </div>
+                <div class="post-right">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </div>
+
+              <div class="post-content">
+                <img src="./Iron man.jpg" alt="ff" height="600" width="600">
+              </div>
+              <div class="post-footer">
+                <div class="like-comment-share">
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+
+                <div class="save">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+
+              <div class="post-footer-content">
+                <p class="likes">7.5k likes</p>
+                <p class="name">Captain America <span>"I Love You 3000" 💞</span></p>
+                <p class="name">Thor <span>"The truth is, I am Iron Man" 🔥</span></p>
+                <p class="contents">View all 155 comments</p>
+                <p class="posting-time">23 HOURS AGO</p>
+              </div>
+
+              <div class="add-comment">
+                <div class="left-side">
+                  <i class="fa-regular fa-face-smile"></i>
+                  <input type="text" placeholder="Add a comment...">
+                </div>
+                <div class="right-side">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="posts">
+              <div class="post-title">
+                <div class="post-left">
+                  <div class="image">
+                    <img src="./Captain America.jpg" alt="Captain America" width="32" height="32">
+                  </div>
+                  <div class="details">
+                    <p class="name">Captain America <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                    <p class="location">The First Avenger</p>
+                  </div>
+                </div>
+                <div class="post-right">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </div>
+
+              <div class="post-content">
+                <img src="./Captain America.jpg" alt="ff" height="600" width="600">
+              </div>
+              <div class="post-footer">
+                <div class="like-comment-share">
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+
+              <div class="post-footer-content">
+                <p class="likes">5k likes</p>
+                <p class="name">Iron Man <span>"I can do this all day" ⚔</span></p>
+                <p class="name">Thor <span>"You get hurt, hurt 'em back" 🔥</span></p>
+                <p class="contents">View all 120 comments</p>
+                <p class="posting-time">23 HOURS AGO</p>
+              </div>
+
+              <div class="add-comment">
+                <div class="left-side">
+                  <i class="fa-regular fa-face-smile"></i>
+                  <input type="text" placeholder="Add a comment...">
+                </div>
+                <div class="right-side">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="posts">
+              <div class="post-title">
+                <div class="post-left">
+                  <div class="image">
+                    <img src="./Thor.jpg" alt="Thor" width="32" height="32">
+                  </div>
+                  <div class="details">
+                    <p class="name">Thor <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                    <p class="location">Courage is immortal</p>
+                  </div>
+                </div>
+                <div class="post-right">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </div>
+
+              <div class="post-content">
+                <img src="./Thor.jpg" alt="ff" height="600" width="600">
+              </div>
+              <div class="post-footer">
+                <div class="like-comment-share">
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-comment"></i>
+                  <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                  <i class="fa-regular fa-bookmark"></i>
+                </div>
+              </div>
+
+              <div class="post-footer-content">
+                <p class="likes">4.5k likes</p>
+                <p class="name">Iron Man <span>"I have no plans to die today" 💀 </span></p>
+                <p class="name">Captain America <span>"I went for the head" 🔥</span></p>
+                <p class="contents">View all 120 comments</p>
+                <p class="posting-time">23 HOURS AGO</p>
+              </div>
+
+              <div class="add-comment">
+                <div class="left-side">
+                  <i class="fa-regular fa-face-smile"></i>
+                  <input type="text" placeholder="Add a comment...">
+                </div>
+                <div class="right-side">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div class="right-side">
+          <div class="profile-title">
+            <div class="profile-left">
+              <div class="image">
+                <img src="./Iron man.jpg" alt="iron man" width="56" height="56">
+              </div>
+              <div class="details">
+                <p class="name">Iron Man</p>
+                <p class="surname">Tony Stark</p>
+              </div>
+            </div>
+            <div class="profile-right">
+              <p class="switch">Switch</p>
+            </div>
+          </div>
+          <div class="suggestions">
+            <p>Suggested for you</p>
+            <p>See All</p>
+          </div>
+
+          <div class="suggestion-title">
+            <div class="suggestion-left">
+              <div class="image">
+                <img src="./Black Widow.jpeg" alt="ff" height="32" width="32">
+              </div>
+              <div class="details">
+                <p class="name">Black Widow <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                <p class="location">Agent Romanoff</p>
+              </div>
+            </div>
+            <div class="suggestion-right">
+              <p class="follow1">Follow</p>
+            </div>
+          </div>
+
+          <div class="suggestion-title">
+            <div class="suggestion-left">
+              <div class="image">
+                <img src="./Hulk.jpg" alt="ff" height="32" width="32">
+              </div>
+              <div class="details">
+                <p class="name">Hulk <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                <p class="location">Bruce Banner</p>
+              </div>
+             </div>
+              <div class="suggestion-right">
+                <p class="follow2">Follow</p>
+              </div>
+          </div>
+
+          <div class="suggestion-title">
+            <div class="suggestion-left">
+              <div class="image">
+                <img src="./Hawkeye.jpeg" alt="ff" height="32" width="32">
+              </div>
+              <div class="details">
+                <p class="name">Hawkeye <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                <p class="location">Clint Barton</p>
+              </div>
+             </div>
+              <div class="suggestion-right">
+                <p class="follow3">Follow</p>
+              </div>
+          </div>
+
+          <div class="suggestion-title">
+            <div class="suggestion-left">
+              <div class="image">
+                <img src="./Deadpool.jpg" alt="ff" height="32" width="32">
+              </div>
+              <div class="details">
+                <p class="name">Deadpool <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                <p class="location">Wade Wilson</p>
+              </div>
+             </div>
+              <div class="suggestion-right">
+                <p class="follow4">Follow</p>
+              </div>
+          </div>
+
+          <div class="suggestion-title">
+            <div class="suggestion-left">
+              <div class="image">
+                <img src="./Wolverine.jpeg" alt="ff" height="32" width="32">
+              </div>
+              <div class="details">
+                <p class="name">Wolverine <i class="fa-solid fa-certificate" style="color: #00aaff;"></i></p>
+                <p class="location">Logan</p>
+              </div>
+            </div>
+            <div class="suggestion-right">
+                <p class="follow">Follow</p>
+              </div>
+          </div>
+
+          <p class="About-page">About . Help . Press . API . Jobs . Privacy .<br> Terms . Locations . Language . Meta Verified<br><br>© 2024 Instagram from Meta</p>
+          
+          </div>
+        </div>
+      </section>
+  </div>
+</body>
+</html>
